@@ -1,0 +1,49 @@
+
+X:1
+T:The Swallow and the Bells (Full Concept)
+C:Leontovych / Arr. by Gemini
+M:3/4
+L:1/4
+Q:1/4=160
+K:Gm
+%%score (Soprano) (Bass)
+V:Soprano name="The Swallow (Soprano/Alto)" clef=treble
+%%MIDI program 68 % Oboe (Sounds like a sharp bird)
+V:Bass name="The Bells (Tenor/Bass)" clef=bass
+%%MIDI program 52 % Choir Aahs (Sounds like voices)
+
+% --- PART 1: THE ANCIENT ROOTS (Solo) ---
+% The bird sings alone.
+V:Soprano
+B/2A/2 B/2G/2 B/2A/2 | B/2A/2 B/2G/2 B/2A/2 | B/2A/2 B/2G/2 B/2A/2 | B/2A/2 B/2G/2 B/2A/2 |
+w: Shched-ryk shched-ryk shched-ri voch-ka pry-le ti-la las-ti voch-ka
+V:Bass
+z3 | z3 | z3 | z3 |
+
+% --- PART 2: THE TRANSITION (The Bell Appears) ---
+% Basses start the "Ding Dong" drone under the bird.
+V:Soprano
+B/2A/2 B/2G/2 B/2A/2 | B/2A/2 B/2G/2 B/2A/2 | B/2A/2 B/2G/2 B/2A/2 | B/2A/2 B/2G/2 B/2A/2 |
+w: Shched-ryk shched-ryk shched-ri voch-ka pry-le ti-la las-ti voch-ka
+V:Bass
+G,3 | F,3 | E,3 | D,3 |
+w: Ding... Dong... Ding... Dong...
+
+% --- PART 3: THE CLIMAX (Mashup) ---
+% High energy! Sopranos switch to English Melody, Basses keep the rhythm.
+V:Soprano
+d c/2d/2 c | B/2A/2 B/2G/2 B/2A/2 | d c/2d/2 c | B/2A/2 B/2G/2 B/2A/2 |
+w: Mer-ry Mer-ry Mer-ry Christ-mas! Mer-ry Mer-ry Mer-ry Christ-mas!
+V:Bass
+G, G, G, | F, F, F, | E, E, E, | D, D, D, |
+w: Hark! The Bells! Hark! The Bells! Hark! The Bells! Hark! The Bells!
+
+% --- PART 4: THE FADE (The Swallow remains) ---
+% Sudden drop in volume. Bass fades out, Bird is left alone.
+V:Soprano
+B/2A/2 B/2G/2 z | z3 | B/2A/2 B/2G/2 z | z3 |]
+w: las-ti voch-ka... las-ti voch-ka...
+V:Bass
+G,3 | z3 | G,3 | z3 |]
+w: Dong... Dong...
+
